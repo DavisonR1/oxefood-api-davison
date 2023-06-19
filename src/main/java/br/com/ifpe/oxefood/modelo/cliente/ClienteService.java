@@ -14,6 +14,9 @@ import br.com.ifpe.oxefood.util.entity.GenericService;
 public class ClienteService extends GenericService {
 
     @Autowired
+    private EnderecoClienteRepository enderecoClienteRepository;
+
+    @Autowired
     private ClienteRepository repository;
 
     @Transactional
