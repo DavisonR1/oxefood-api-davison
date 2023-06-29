@@ -66,7 +66,7 @@ public class ClienteService extends GenericService {
 
         // Primeiro salva o EnderecoCliente:
 
-        endereco.setCliente(cliente);
+        endereco.setCliente(cliente); 
         endereco.setHabilitado(Boolean.TRUE);
         enderecoClienteRepository.save(endereco);
 
